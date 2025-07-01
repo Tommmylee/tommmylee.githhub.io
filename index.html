@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的个人博客</title>
+    <style>
+        body {
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #34495e;
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            max-width: 960px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+
+        .intro {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .post-list {
+            display: grid;
+            gap: 20px;
+        }
+
+        .post {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            padding: 20px;
+            transition: transform 0.2s ease;
+        }
+
+        .post:hover {
+            transform: translateY(-5px);
+        }
+
+        .post h3 {
+            margin-top: 0;
+        }
+
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>欢迎来到我的博客</h1>
+    <p>记录生活点滴 · 分享技术成长</p>
+</header>
+
+<nav>
+    <a href="#">首页</a>
+    <a href="#">关于我</a>
+    <a href="#">文章归档</a>
+    <a href="#">联系我</a>
+</nav>
+
+<div class="container">
+    <div class="intro">
+        <h2>你好，我是张三</h2>
+        <p>一名热爱编程与写作的开发者，喜欢分享前端开发、技术心得以及生活感悟。</p>
+    </div>
+
+    <div class="post-list">
+        <div class="post">
+            <h3><a href="#">如何快速入门 Vue.js</a></h3>
+            <p>在本文中，我将带你从零开始学习 Vue.js 的基础语法和项目结构。</p>
+            <small>发布于 2025年3月20日</small>
+        </div>
+
+        <div class="post">
+            <h3><a href="#">CSS Grid 布局详解</a></h3>
+            <p>了解 CSS Grid 是现代网页布局的关键技能之一，本文为你详细讲解常用属性和实战技巧。</p>
+            <small>发布于 2025年3月18日</small>
+        </div>
+
+        <div class="post">
+            <h3><a href="#">2025 年前端趋势展望</a></h3>
+            <p>探索今年最值得关注的技术方向和工具链变化，帮助你走在行业前沿。</p>
+            <small>发布于 2025年3月15日</small>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2025 我的个人博客 | 设计灵感来自热爱开源</p>
+</footer>
+
+</body>
+</html>
